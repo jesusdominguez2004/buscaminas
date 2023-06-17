@@ -42,13 +42,24 @@ td {
     cursor: pointer;
 }
 
+#juego-nuevo:hover {
+    background: #7abbd5;
+    transition: 0s !important;
+}
+
 #minas {
     background: black;
     color: red;
+    cursor: help;
 }
 
 #ajustes {
     background: #eee;
     cursor: pointer;
+}
+
+#ajustes:hover {
+    background: #e1e1e1;
+    transition: 0s !important;
 }
 
